@@ -4,7 +4,7 @@
 Praticar programação em redes utilizando sockets.
 
 ### Desafio
-Desenvolver uma aplicação de Chat em Java com protocolo Multicast.
+Desenvolver uma aplicação de Chat em Java com o protocolo Multicast.
 
 ### Requisitos
 Os requisitos básicos são:
@@ -29,3 +29,10 @@ Para realizar o trabalho, serão seguidos os seguintes passos:
 3 - Desenvolver a aplicação.
 
 4 - Escrever no README.md do projeto a documentação do trabalho.
+
+### Comando para testar
+
+```bash
+run = "javac -d bin src/*.java; java -cp bin redes.Main \"Teste\" 228.5.6.7"
+```
+
