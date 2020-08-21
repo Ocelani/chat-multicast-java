@@ -41,7 +41,8 @@ public class Server {
 
         ClientThread clientThread = new ClientThread(socket);
         // Adiciona o cliente na lista e inicia a thread
-        clientThread.add(clientThread).start();
+        clientThread.add(clientThread);
+        clientThread.start();
       }
       try {
         // Ao encerrar o socket server, desconecta os clientes na thread
