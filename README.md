@@ -35,44 +35,36 @@ Para realizar o trabalho, serão seguidos os seguintes passos:
 
 4 - Escrever no README.md do projeto a documentação do trabalho.
 
----
-
-**Sobre:**
-
----
+## Sobre
 
 Servidor multithread baseado em console que usa programação Java Socket. Um servidor escuta solicitações de conexão de clientes na rede ou até mesmo na mesma máquina. Os clientes sabem como se conectar ao servidor por meio de um endereço IP e número de porta. Após conectar-se ao servidor, o cliente pode escolher seu nome de usuário na sala de chat. O cliente envia uma mensagem, a mensagem é enviada ao servidor usando ObjectOutputStream em java. Depois de receber a mensagem do cliente, o servidor a transmite se não for uma mensagem privada. E se for uma mensagem privada detectada usando '@' seguido por um nome de usuário válido, envie a mensagem apenas para esse usuário. Serialização de objetos Java para transferir as mensagens.
 
----
+##  Instruções
 
-** Instruções: **
+### Cliente
 
----
-
-**Cliente**
-
-Para iniciar o client no modo console, use um dos seguintes comandos:
+##### Para iniciar o client no modo console, use um dos seguintes comandos:
 
 1.  java Client
 2.  java Client username
 3.  java Client username portNumber
 4.  java Client username portNumber serverAddress
 
-No prompt do console:
+##### No prompt do console:
 
 - Se o portNumber não for especificado, 1500 será usado.
 - Se o serverAddress não for especificado, "localHost" será usado.
 - Se o username não for especificado, "UsuárioDefault" será usado.
 
-**Servidor**
+### **Servidor**
 
-Para executar como um aplicativo no console:
+##### Para executar como um aplicativo no console:
 
 1.  java Server
 2.  java Server portNumber
     Se o número da porta não for especificado, 1500 é usado.
 
-**Bate-papo**
+##### Bate-papo
 
 Enquanto estiver no console do cliente:
 
